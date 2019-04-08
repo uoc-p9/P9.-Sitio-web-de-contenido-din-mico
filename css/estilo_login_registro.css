@@ -39,7 +39,17 @@
     color: white;
 }
 
-.card-deck {
-    width: 90%;
-    margin: 0px auto;
+.form-group input {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+h1 {
+    padding-bottom: 5%;
 }

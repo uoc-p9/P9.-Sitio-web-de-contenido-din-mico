@@ -5,7 +5,7 @@
     <title>JDA</title>
     <meta charset="UTF-8">
     <meta name="JDA" content="WEB JDA">
-    <LINK REL=StyleSheet HREF="css/estilo.css" TYPE="text/css" MEDIA=screen>
+    <LINK REL=StyleSheet HREF="css/estilo_login_registro.css" TYPE="text/css" MEDIA=screen>
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
@@ -19,7 +19,7 @@
 
         <!--IMAGEN CORPORATIVA-->
         <div id="cabecera">
-            <h1>IMAGEN CORPORATIVA</h1>
+            <a title="Inicio" href="index.html"><img src="images/logotipo.png" alt="logo corporativo" width="80%" height="90%" /></a>
         </div>
 
         <!--MENÚ NAVBAR-->
@@ -42,21 +42,37 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Administración</a>
                     </li>
                 </ul>
-                <button style="margin-right: 1%" type="button" class="btn btn-success">Inicio sesión</button>
-                <button type="button" class="btn btn-danger">Registrarse</button>
+                <button style="margin-right: 1%" type="button" onclick="location.href = 'login.html'" class="btn btn-success">Inicio sesión</button>
+                <button type="button" onclick="location.href = 'registro.html'" class="btn btn-danger">Registrarse</button>
             </div>
         </nav>
 
         <!--CUERPO CONTENEDOR-->
         <div id="cuerpo">
-            <h1>CONTENIDO DE LA PÁGINA</h1>
+            <h1>REGISTRAR NUEVO USUARIO</h1>
+            <form>
+                <div class="form-group">
+                    <label>New Username</label>
+                    <input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter  the new username">
+                </div>
+                <div class="form-group">
+                    <label>New Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter the new password">
+                </div>
+                <div class="form-group">
+                    <label>Repeat Password</label>
+                    <input type="password" class="form-control" id="password2" placeholder="Enter the new password again">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
+    </div>
 
-        <!--FOOTER-->
+    <!--FOOTER-->
 
     </div>
     <div id="footer">
-        <p> &copy; PIE DE PÁGINA</p>
+        <p> &copy; JDA CERVEZAS</p>
     </div>
 </body>
 
