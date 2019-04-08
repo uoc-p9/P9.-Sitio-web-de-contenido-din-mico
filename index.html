@@ -19,7 +19,7 @@
 
         <!--IMAGEN CORPORATIVA-->
         <div id="cabecera">
-            <h1>IMAGEN CORPORATIVA</h1>
+            <a title="Inicio" href="index.html"><img src="images/logotipo.png" alt="logo corporativo" width="80%" height="90%" /></a>
         </div>
 
         <!--MENÚ NAVBAR-->
@@ -42,21 +42,48 @@
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Administración</a>
                     </li>
                 </ul>
-                <button style="margin-right: 1%" type="button" class="btn btn-success">Inicio sesión</button>
-                <button type="button" class="btn btn-danger">Registrarse</button>
+                <button style="margin-right: 1%" type="button" onclick="location.href = 'login.html'" class="btn btn-success">Inicio sesión</button>
+                <button type="button" onclick="location.href = 'registro.html'" class="btn btn-danger">Registrarse</button>
             </div>
         </nav>
 
         <!--CUERPO CONTENEDOR-->
         <div id="cuerpo">
-            <h1>CONTENIDO DE LA PÁGINA</h1>
+            <center>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="images/consulta.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">CONSULTA</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/comentar.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VALORA</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="images/votar.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">VOTA</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </center>
         </div>
 
         <!--FOOTER-->
 
     </div>
     <div id="footer">
-        <p> &copy; PIE DE PÁGINA</p>
+        <p> &copy; JDA CERVEZAS</p>
     </div>
 </body>
 
