@@ -2,7 +2,7 @@
 			<form id="frm-alumno" action="?c=Web&a=Guardar_usuarios" method="post" enctype="multipart/form-data">
                 <div class="form-group">
                     <label>New Username</label>
-                    <input type="text" value="<?php echo $user->nombre_usuario; ?>" class="form-control" name="nombre_usuario"  placeholder="Nombre de usuario" data-validacion-tipo="requerido|min:3">
+                    <input type="text" name="nombre_usuario" value="<?php echo $user->nombre_usuario; ?>" class="form-control"   placeholder="Nombre de usuario" data-validacion-tipo="requerido|min:3">
                 </div>
                 <div class="form-group">
                     <label>New Password</label>
@@ -14,3 +14,5 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
+            
+           

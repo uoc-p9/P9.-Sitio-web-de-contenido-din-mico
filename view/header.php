@@ -20,7 +20,7 @@
 
         <!--IMAGEN CORPORATIVA-->
         <div id="cabecera">
-            <a title="Inicio" href="index.html"><img src="assets/images/logotipo.png" alt="logo corporativo" width="80%" height="90%" /></a>
+            <a title="Inicio" href="index.php"><img src="assets/images/logotipo.png" alt="logo corporativo" width="80%" height="90%" /></a>
         </div>
 
         <!--MENÚ NAVBAR-->
@@ -28,7 +28,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./vista/vista_producto.php">Productos <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="vista/vista_producto.php">Productos <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Pale Lager <span class="sr-only">(current)</span></a>
